@@ -1,0 +1,30 @@
+{
+  "name": "test_cli",
+  "version": "1.0.0",
+  "description": "test_cli_myself",
+  "main": "index.js",
+  "bin": {
+    "test-wang": "./bin/first"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangxianseng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wklTomorrow/test_cli_study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wklTomorrow/test_cli_study/issues"
+  },
+  "homepage": "https://github.com/wklTomorrow/test_cli_study#readme",
+  "devDependencies": {},
+  "keywords": []
+}
